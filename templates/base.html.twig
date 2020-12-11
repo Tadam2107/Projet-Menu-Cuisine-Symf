@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+   {% include '/_partials/header.html.twig' %}
+
+    <body  data-spy="scroll" data-target="#template-navbar">
+    
+     {% include '/_partials/nav.html.twig' %}
+
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    {% include '/_partials/footer.html.twig' %}
+    </body>
+</html>
